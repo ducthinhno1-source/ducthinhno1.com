@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050914">
+  <meta name="description" content="Website cá nhân của ducthinhno1 — công nghệ, sáng tạo và những dự án đang thực hiện.">
+  <title>ducthinhno1 — Trang cá nhân</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="ducthinhno1 trang chủ"><span class="brand-mark">◆</span><span>ducthinh<span class="accent">no1</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="#home">Trang chủ</a><a class="nav-link" href="#about">Giới thiệu</a>
+      <a class="nav-link" href="#skills">Kỹ năng</a><a class="nav-link" href="#projects">Dự án</a><a class="nav-link" href="#contact">Liên hệ</a>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-btn" id="musicToggle" title="Bật/tắt nhạc nền" aria-label="Bật nhạc nền">♫</button>
+      <button class="icon-btn" id="themeToggle" title="Đổi hiệu ứng ánh sáng" aria-label="Đổi hiệu ứng">☾</button>
+      <button class="login-btn" id="loginOpen"><span>♙</span> Đăng nhập</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-stars" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse-dot"></span> XIN CHÀO, MÌNH LÀ</div>
+        <h1>Duc Thinh<br><span class="gradient-text">ducthinhno1</span></h1>
+        <p class="hero-description">Chào mừng bạn đến với góc nhỏ của mình trên Internet — nơi mình chia sẻ bản thân, sở thích, kỹ năng và những dự án đang thực hiện.</p>
+        <div class="hero-buttons"><a class="button primary" href="#projects">✦ Khám phá ngay <span>↗</span></a><a class="button secondary" href="#contact">Liên hệ với mình</a></div>
+        <div class="socials" aria-label="Liên kết mạng xã hội">
+          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube">▶</a>
+          <a href="https://discord.com/" target="_blank" rel="noreferrer" aria-label="Discord">◉</a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" aria-label="TikTok">♪</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">⌘</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="moon"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+        <div class="lake"></div>
+        <div class="figure"><div class="figure-head"></div><div class="figure-body"></div><div class="figure-leg leg-one"></div><div class="figure-leg leg-two"></div></div>
+        <div class="floating-chip"><span class="equalizer"><i></i><i></i><i></i><i></i></span><span id="musicStatus">Chill vibes</span><span class="chip-note">♪</span></div>
+      </div>
+      <div class="scroll-hint"><span></span> CUỘN ĐỂ KHÁM PHÁ</div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><span class="section-icon">✦</span><div><p class="eyebrow">MỘT CHÚT VỀ MÌNH</p><h2>Giới thiệu <span class="gradient-text">bản thân</span></h2></div></div>
+      <div class="about-grid">
+        <div class="avatar-card"><div class="avatar-ring"><div class="avatar"><span>D</span><span class="avatar-spark">✧</span></div></div><div class="avatar-caption"><span class="status-dot"></span> Đang học hỏi mỗi ngày</div></div>
+        <div class="about-copy"><h3>Xin chào, mình là Duc Thinh 👋</h3><p>Mình yêu thích công nghệ, thiết kế và khám phá những điều mới. Đây là nơi mình ghi lại hành trình học tập, những ý tưởng thú vị và các sản phẩm mình tự làm.</p><p>Website này là một dự án cá nhân — mình sẽ tiếp tục cập nhật khi có thêm điều hay ho để chia sẻ.</p>
+          <div class="facts"><div><span class="fact-icon">⌁</span><strong>16+</strong><small>Tuổi <em>(có thể chỉnh sửa)</em></small></div><div><span class="fact-icon">⌖</span><strong>Việt Nam</strong><small>Quê hương</small></div><div><span class="fact-icon">✧</span><strong>Đam mê</strong><small>Công nghệ · sáng tạo</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading"><span class="section-icon">⚙</span><div><p class="eyebrow">ĐANG TRÊN HÀNH TRÌNH</p><h2>Kỹ năng <span class="gradient-text">& mục tiêu</span></h2></div></div>
+      <p class="section-intro">Các thanh bên dưới chỉ là ví dụ minh họa — bạn có thể chỉnh lại theo kỹ năng thật của mình.</p>
+      <div class="skills-grid">
+        <div class="skill"><div class="skill-top"><span>HTML & CSS</span><span>85%</span></div><div class="progress"><span style="--progress:85%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>JavaScript</span><span>70%</span></div><div class="progress"><span style="--progress:70%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>Thiết kế giao diện</span><span>65%</span></div><div class="progress"><span style="--progress:65%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>Tiếng Anh</span><span>50%</span></div><div class="progress"><span style="--progress:50%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>Tin học văn phòng</span><span>75%</span></div><div class="progress"><span style="--progress:75%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>Kiên trì học hỏi</span><span>100%</span></div><div class="progress"><span style="--progress:100%"></span></div></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading"><span class="section-icon">▣</span><div><p class="eyebrow">MỘT VÀI THỨ MÌNH LÀM</p><h2>Dự án <span class="gradient-text">nổi bật</span></h2></div></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-visual visual-site"><span class="mini-brand">◆ ducthinhno1</span><div class="mini-lines"><i></i><i></i><i></i></div><div class="mini-orb"></div></div><div class="project-body"><div class="project-type">WEB DESIGN</div><h3>Website cá nhân</h3><p>Không gian trực tuyến để giới thiệu bản thân, sở thích và hành trình học tập.</p><a href="#home" class="project-link">Xem trang này <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-code"><span class="code-symbol">&lt;/&gt;</span><span class="code-caption">CREATE · LEARN · REPEAT</span></div><div class="project-body"><div class="project-type">LEARNING</div><h3>Bài tập lập trình</h3><p>Tổng hợp các bài thực hành, thử nghiệm và những điều mới đang học.</p><a href="#contact" class="project-link">Trao đổi ý tưởng <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-game"><span class="gamepad">⌘</span><span class="game-caption">GAME ZONE</span></div><div class="project-body"><div class="project-type">FOR FUN</div><h3>Góc giải trí</h3><p>Một góc nhỏ dành cho game, âm nhạc và những sở thích ngoài giờ học.</p><a href="#contact" class="project-link">Gợi ý cho mình <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-info"><div class="section-heading"><span class="section-icon">✉</span><div><p class="eyebrow">KẾT NỐI VỚI MÌNH</p><h2>Gửi lời <span class="gradient-text">chào nhé</span></h2></div></div><p>Nếu bạn có câu hỏi, góp ý hoặc muốn trao đổi ý tưởng, hãy gửi tin nhắn cho mình qua biểu mẫu.</p><div class="contact-detail"><span>✉</span><div><small>Email nhận thư</small><strong id="emailDisplay">your-email@example.com</strong></div></div><div class="contact-detail"><span>⌖</span><div><small>Địa điểm</small><strong>Việt Nam</strong></div></div><p class="small-note">Hãy thay email mẫu bằng địa chỉ email của bạn trong tệp <code>script.js</code> trước khi xuất bản.</p></div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row"><label>Tên của bạn<input name="name" autocomplete="name" placeholder="Bạn tên là gì?" required maxlength="80"></label><label>Email của bạn<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="120"></label></div>
+        <label>Nội dung tin nhắn<textarea name="message" rows="5" placeholder="Viết điều bạn muốn nhắn..." required maxlength="3000"></textarea></label>
+        <button class="button primary submit-button" type="submit">➤ Gửi tin nhắn <span>↗</span></button>
+        <p class="form-feedback" id="formFeedback" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">◆</span><span>ducthinh<span class="accent">no1</span></span></a><p>Keep going, be better.</p><div class="footer-links"><a href="#home">Trang chủ</a><a href="#about">Giới thiệu</a><a href="#projects">Dự án</a><a href="#contact">Liên hệ</a></div><span class="copyright">© <span id="year"></span> ducthinhno1 · Made with <span class="heart">♥</span></span></footer>
+
+  <dialog class="login-dialog" id="loginDialog"><form method="dialog"><button class="dialog-close" aria-label="Đóng">×</button></form><div class="dialog-logo">◆</div><p class="eyebrow">KHU VỰC THÀNH VIÊN</p><h2>Chào mừng trở lại</h2><p class="dialog-subtitle">Đăng nhập giao diện demo</p><form id="loginForm" class="login-form"><label>Email hoặc tên đăng nhập<input name="username" autocomplete="username" placeholder="Tên đăng nhập" required></label><label>Mật khẩu<input name="password" type="password" autocomplete="current-password" placeholder="Mật khẩu bất kỳ" required minlength="4"></label><button class="button primary" type="submit">Đăng nhập <span>↗</span></button><p class="login-feedback" id="loginFeedback" role="status"></p><p class="demo-warning">Đây chỉ là bản demo giao diện. Không dùng mật khẩu thật — chưa có máy chủ xác thực tài khoản.</p></form></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
